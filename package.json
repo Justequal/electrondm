@@ -1,6 +1,6 @@
 {
   "name": "electrondm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "main.js",
   "authors": "syq",
   "description": "this is a electron demo",
