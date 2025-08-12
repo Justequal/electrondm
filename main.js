@@ -1,6 +1,8 @@
 const { app, BrowserWindow, ipcMain } = require('electron/main')
 const path = require('node:path')
 
+require('update-electron-app')()
+
 // const fs = require('node:fs')
 
 // // Windows系统下配置全文件监听
