@@ -1,11 +1,12 @@
 {
   "name": "electrondm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "authors": "syq",
   "description": "this is a electron demo",
   "license": "MIT",
   "scripts": {
+    "prepublish-check": "node scripts/check-release.js",
     "publish": "electron-forge publish",
     "start": "electron-forge start",
     "dev": "set NODE_ENV=development && electron .",
