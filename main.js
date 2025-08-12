@@ -1,7 +1,9 @@
 const { app, BrowserWindow, ipcMain } = require('electron/main')
 const path = require('node:path')
+const { updateElectronApp } = require('update-electron-app')
 
-require('update-electron-app')()
+updateElectronApp()
+
 
 // const fs = require('node:fs')
 
@@ -52,6 +54,7 @@ const createWindow = () => {
   
 }
 app.whenReady().then(() => {
+
   ipcMain.handle('ping', () => 'pong')
   createWindow()
 

@@ -1,10 +1,14 @@
 {
   "name": "electrondm",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "main.js",
   "authors": "syq",
   "description": "this is a electron demo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Justequal/electrondm.git"
+  },
   "scripts": {
     "prepublish-check": "node scripts/check-release.js",
     "publish": "electron-forge publish",
@@ -24,6 +28,7 @@
     "@electron-forge/plugin-fuses": "^7.8.3",
     "@electron-forge/publisher-github": "^7.8.3",
     "@electron/fuses": "^1.8.0",
+    "@types/jest": "^30.0.0",
     "electron": "^37.2.6",
     "electron-reloader": "^1.2.3"
   },
