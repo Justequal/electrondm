@@ -10,7 +10,7 @@
     "url": "https://github.com/Justequal/electrondm.git"
   },
   "scripts": {
-    "prepublish-check": "node scripts/check-release.js",
+    "release": "node scripts/release.js",
     "publish": "electron-forge publish",
     "start": "electron-forge start",
     "dev": "set NODE_ENV=development && electron .",
